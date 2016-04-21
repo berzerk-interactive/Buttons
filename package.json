@@ -1,0 +1,41 @@
+{
+  "name": "datatables-buttons.net",
+  "version": "0.0.5",
+  "description": "Package for using datatables-buttons thru npm, commonjs, webpack bundles,etc",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berzerk-interactive/Buttons.git"
+  },
+  "keywords": [
+    "datatables",
+    "buttons",
+    "npm"
+  ],
+  "files": [
+    "js/dataTables.buttons.js",
+    "js/buttons.colVis.js",
+    "js/buttons.flash.js",
+    "js/buttons.html5.js",
+    "js/buttons.print.js",
+    "css/buttons.dataTables.scss"
+  ],
+  "author": "Lee Blazek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/berzerk-interactive/Buttons/issues"
+  },
+  "homepage": "https://github.com/berzerk-interactive/Buttons#readme",
+  "dependencies": {
+    "datatables.net": "^1.10.11",
+    "datatables.net-dt": "^1.10.11",
+    "jquery": "^2.2.3"
+  }
+}
